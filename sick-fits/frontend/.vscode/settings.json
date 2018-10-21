@@ -4,5 +4,14 @@
     "titleBar.inactiveForeground": "#000000CC",
     "titleBar.activeBackground": "#FFC600",
     "titleBar.inactiveBackground": "#FFC600CC"
-  }
+  },
+  "spellright.language": [
+    "en",
+    "nl"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "plaintext",
+    "javascript"
+  ]
 }

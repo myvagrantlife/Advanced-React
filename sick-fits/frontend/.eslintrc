@@ -1,0 +1,34 @@
+{
+  "env": {
+    "browser": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "16.4"
+    }
+  },
+  "extends": [
+    "react-app",
+    "plugin:react/recommended",
+    "prettier",
+    "prettier/react"
+  ],
+  "plugins": ["react", "prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "react/prop-types": 0,
+    "react/display-name": 0,
+    "react/no-unescaped-entities": 0,
+    "camelcase": 0,
+    "no-use-before-define": 0,
+    "jsx-a11y/href-no-hash": 0
+  }
+}
